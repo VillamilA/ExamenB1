@@ -24,4 +24,8 @@ public class Quito_Puyo extends Ruta{
     public void setPrecio_QP(double precio_QP) {
         this.precio_QP = precio_QP;
     }
+
+    public double calcular_costo(){
+        return precio_QP;
+    }
 }

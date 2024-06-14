@@ -31,9 +31,7 @@ public class VIP extends Servicio {
     }
 
     public double costo_servicio() {
-        double costo = precio;
-
-
+        double costo = precio + (precio*0.30);
         if (television) {
             costo += 50.0;
         }

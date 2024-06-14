@@ -26,6 +26,6 @@ public class Ticket_Comprado {
     }
 
     public double calcular_costo(){
-        return 0;
+        return 0.0;
     }
 }

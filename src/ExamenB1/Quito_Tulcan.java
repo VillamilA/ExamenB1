@@ -28,6 +28,6 @@ public class Quito_Tulcan extends Ruta {
 
     @Override
     public double calcular_costo(){
-        return precio_QT+calcular_costo();
+        return precio_QT;
     }
 }

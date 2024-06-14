@@ -28,7 +28,10 @@ public class Quito_Guayaquil extends Ruta{
 
     @Override
     public double calcular_costo() {
-        return precio_QG + calcular_costo();
+        return precio_QG;
+    }
+    public void costo_precioQG(){
+        System.out.print("El precio para viajar a Puyo es de "+precio_QG);
     }
 }
 

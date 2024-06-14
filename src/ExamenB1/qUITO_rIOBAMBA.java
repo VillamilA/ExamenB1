@@ -19,6 +19,6 @@ public class qUITO_rIOBAMBA extends Ruta {
     }
 
     public double calcular_costo(){
-    return calcular_costo()+precio_QR;
+    return precio_QR;
     }
 }
